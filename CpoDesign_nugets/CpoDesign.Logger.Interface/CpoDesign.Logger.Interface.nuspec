@@ -12,7 +12,7 @@
     </metadata>
     <files>
         <file src="build\_._" target="build\_._" />
-        <file src="bin\Debug\CpoDesign.Logger.Interface.dll" target="lib\net45\CpoDesign.Logger.Interface.dll" />
-        <file src="bin\Debug\CpoDesign.Logger.Interface.pdb" target="lib\net45\CpoDesign.Logger.Interface.pdb" />
+        <file src="bin\Release\CpoDesign.Logger.Interface.dll" target="lib\net45\CpoDesign.Logger.Interface.dll" />
+        <file src="bin\Release\CpoDesign.Logger.Interface.pdb" target="lib\net45\CpoDesign.Logger.Interface.pdb" />
     </files>
 </package>
