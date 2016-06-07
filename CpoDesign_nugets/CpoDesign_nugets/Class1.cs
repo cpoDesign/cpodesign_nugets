@@ -8,5 +8,6 @@ namespace CpoDesign_nugets
 {
     public class Class1
     {
+        // commment
     }
 }
