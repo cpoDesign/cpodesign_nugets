@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CpoDesign.Components.Settings.Interface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CpoDesign.Components.Settings.Interface.1.0.10\lib\net45\CpoDesign.Components.Settings.Interface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Configuration" />
@@ -44,13 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CpoDesign.Components.Settings.Interface\CpoDesign.Components.Settings.Interface.csproj">
-      <Project>{5B999945-4838-419C-873E-127D2115E486}</Project>
-      <Name>CpoDesign.Components.Settings.Interface</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="CpoDesign.Components.Settings.AppSettings.nuspec" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
