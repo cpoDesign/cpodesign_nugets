@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>CpoDesign.Components.ApplicationInformation</id>
+    <version>1.0</version>
+    <authors>Pavel Svarc</authors>
+    <owners>Pavel Svarc</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Gets information about application</description>
+    <tags>cpodesign Components</tags>    
+  </metadata>
+  <files>    
+    <file src="bin\Release\CpoDesign.Components.ApplicationInformation.dll" target="lib\net45\CpoDesign.Components.ApplicationInformation.dll" />
+    <file src="bin\Release\CpoDesign.Components.ApplicationInformation.pdb" target="lib\net45\CpoDesign.Components.ApplicationInformation.pdb" />
+  </files>
+</package>
