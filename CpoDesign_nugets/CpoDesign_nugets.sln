@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpoDesign.Logger.Interface"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpoDesign.Components.ApplicationInformation", "CpoDesign.ApplicationInformation\CpoDesign.ApplicationInformation\CpoDesign.Components.ApplicationInformation.csproj", "{DC8C4216-8B61-4A34-9D40-2D6996EC1694}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpoDesign.Logger.Nlog", "CpoDesign.Logger.Nlog\CpoDesign.Logger.Nlog.csproj", "{F3119DD8-AAD2-4440-B50D-CBE312B538EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DC8C4216-8B61-4A34-9D40-2D6996EC1694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC8C4216-8B61-4A34-9D40-2D6996EC1694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC8C4216-8B61-4A34-9D40-2D6996EC1694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3119DD8-AAD2-4440-B50D-CBE312B538EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3119DD8-AAD2-4440-B50D-CBE312B538EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3119DD8-AAD2-4440-B50D-CBE312B538EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3119DD8-AAD2-4440-B50D-CBE312B538EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

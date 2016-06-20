@@ -5,8 +5,8 @@
     using System;
     using System.ComponentModel.Composition;
 
-    [Export(typeof (ILogger))]
-    public class NLogger : ILogger
+    [Export(typeof (Interface.ILogger))]
+    public class NLogger : Interface.ILogger
     {
         private NLog.Logger logger;
 
