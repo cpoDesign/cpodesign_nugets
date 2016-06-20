@@ -1,11 +1,11 @@
 using System.ComponentModel.Composition;
 using System.Configuration;
-using CpoDesign.Components.Settings.Interface;
+
 
 namespace CpoDesign.Components.Settings.AppSettings
 {
-    [Export(typeof(ISettings))]
-    public class AppSettings : ISettings
+    //[Export(typeof(ISettings))]
+    public class AppSettings 
     {
         public string Get(string keyName)
         {
@@ -13,3 +13,4 @@ namespace CpoDesign.Components.Settings.AppSettings
         }
     }
 }
+
