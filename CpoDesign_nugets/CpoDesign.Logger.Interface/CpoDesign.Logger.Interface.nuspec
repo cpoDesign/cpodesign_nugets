@@ -10,8 +10,7 @@
         <language>en-GB</language>
         <tags>cpodesign nlog interface</tags>
     </metadata>
-    <files>
-        <file src="build\_._" target="build\_._" />
+    <files>        
         <file src="bin\Release\CpoDesign.Logger.Interface.dll" target="lib\net45\CpoDesign.Logger.Interface.dll" />
         <file src="bin\Release\CpoDesign.Logger.Interface.pdb" target="lib\net45\CpoDesign.Logger.Interface.pdb" />
     </files>
