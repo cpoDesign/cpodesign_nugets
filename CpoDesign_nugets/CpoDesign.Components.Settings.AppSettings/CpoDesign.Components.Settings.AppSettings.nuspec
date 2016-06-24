@@ -6,7 +6,7 @@
         <authors>Pavel Svarc</authors>
         <owners>Pavel Svarc</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Implementation for app settings</description>
+        <description>Implementation for component app settings</description>
         <language>en-GB</language>
       <tags>cpodesign ApplicationSettings interface component</tags>
     </metadata>
